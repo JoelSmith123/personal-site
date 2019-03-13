@@ -4,7 +4,9 @@
   "description": "My personal developer website.",
   "main": "main.js",
   "dependencies": {
-    "node-sass": "^4.11.0"
+    "connect": "^3.6.6",
+    "node-sass": "^4.11.0",
+    "serve-static": "^1.13.2"
   },
   "devDependencies": {},
   "scripts": {
