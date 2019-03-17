@@ -1,12 +1,28 @@
 body {
+  background: #659dbd;
   margin: 0;
 }
 
 .header {
-  background: linear-gradient(blue, 20%, pink);
+  // background: linear-gradient(140deg, #00ffa5, 50%, blue);
+  background: url('https://lessandmore.com/wp-content/uploads/2016/08/COVER.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 300px;
 }
 
 .header-title {
-  margin: 0 auto;
+  color: #fff;
+  font-family: 'Alegreya SC', serif;
+  font-size: 3rem;
+  font-weight: 500;
+  margin: 0;
+  padding-top: 90px; 
+  text-align: center;
+}
+
+p {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.5rem;
+  margin: 30px;
 }
