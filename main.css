@@ -9,12 +9,13 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   height: 300px;
+  position: relative;
 }
 
 .header-title {
   color: #fff;
   font-family: 'Alegreya SC', serif;
-  font-size: 3rem;
+  font-size: 3.5rem;
   font-weight: 500;
   margin: 0;
   padding-top: 90px; 
@@ -22,7 +23,26 @@ body {
 }
 
 p {
+  color: #fff;
   font-family: 'Ubuntu', sans-serif;
   font-size: 1.5rem;
   margin: 30px;
+  margin-right: 500px;
+}
+
+.navbar {
+  bottom: 0;
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 10px;
+  position: absolute;
+  width: 100%;
+}
+
+.navbar-btn {
+  background: transparent;
+  border: none;
+  font-size: 1rem;
+  height: 50px;
+  width: 120px;
 }
