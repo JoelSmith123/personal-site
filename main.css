@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+}
+
+.header {
+  background: linear-gradient(blue, 20%, pink);
+  height: 300px;
+}
+
+.header-title {
+  margin: 0 auto;
+}
