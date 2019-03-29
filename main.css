@@ -9,7 +9,8 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   height: 300px;
-  position: relative;
+  position: sticky;
+  top: -220px;
 }
 
 .header-title {
@@ -19,6 +20,7 @@ body {
   font-weight: 500;
   margin: 0;
   padding-top: 90px; 
+  padding-bottom: 60px;
   text-align: center;
 }
 
@@ -34,8 +36,9 @@ p {
   bottom: 0;
   display: flex;
   justify-content: space-around;
-  padding-bottom: 10px;
-  position: absolute;
+  padding-top: 10px;
+  position: sticky;
+  top: 0;
   width: 100%;
 }
 
