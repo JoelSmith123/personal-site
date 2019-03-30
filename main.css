@@ -57,3 +57,13 @@ p {
   color: #000;
 }
 
+.resume-title {
+  font-family: 'Alegreya SC', serif;
+  text-align: center;
+}
+
+.resume-preview {
+  display: block;
+  margin: 0 auto;
+}
+
