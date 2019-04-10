@@ -3,6 +3,25 @@ body {
   margin: 0;
 }
 
+hr {
+  overflow: visible;
+  padding: 0;
+  border: none;
+  border-top: medium double #283e4b;
+  color: #283e4b;
+  text-align: center;
+  width: 90%;
+}
+hr:after {
+  content: "§";
+  display: inline-block;
+  position: relative;
+  top: -0.7em;
+  font-size: 1.5em;
+  padding: 0 0.25em;
+  background: #659dbd;
+}
+
 .header {
   // background: linear-gradient(140deg, #00ffa5, 50%, blue);
   background: url('https://lessandmore.com/wp-content/uploads/2016/08/COVER.jpg');
@@ -11,6 +30,7 @@ body {
   height: 500px;
   position: sticky;
   top: -442px;
+  z-index: 1;
 }
 
 .header-title {
@@ -37,9 +57,9 @@ body {
 p {
   color: #fff;
   font-family: 'Ubuntu', sans-serif;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   margin: 0 auto;
-  margin-bottom: 30px;
+  margin-bottom: 60px;
   width: 80%;
 }
 
@@ -71,7 +91,7 @@ p {
 .project-image {
   display: block;
   margin: 0 auto;
-  margin-bottom: 60px;
+  margin-bottom: 70px;
   width: 80%;
 }
 
