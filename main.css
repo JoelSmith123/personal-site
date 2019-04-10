@@ -8,8 +8,9 @@ body {
   background: url('https://lessandmore.com/wp-content/uploads/2016/08/COVER.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  height: 300px;
-  position: relative;
+  height: 500px;
+  position: sticky;
+  top: -442px;
 }
 
 .header-title {
@@ -18,24 +19,36 @@ body {
   font-size: 3.5rem;
   font-weight: 500;
   margin: 0;
-  padding-top: 90px; 
+  padding-top: 150px; 
+  padding-bottom: 220px;
   text-align: center;
+}
+
+.subheading-title,
+.project-title {
+  font-family: 'Alegreya SC', serif;
+  text-align: center;
+}
+
+.about-title {
+  padding-top: 20px;
 }
 
 p {
   color: #fff;
   font-family: 'Ubuntu', sans-serif;
   font-size: 1.5rem;
-  margin: 30px;
-  margin-right: 500px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  width: 80%;
 }
 
 .navbar {
   bottom: 0;
   display: flex;
   justify-content: space-around;
-  padding-bottom: 10px;
-  position: absolute;
+  position: sticky;
+  top: 0;
   width: 100%;
 }
 
@@ -43,6 +56,7 @@ p {
   background: transparent;
   border: 3px solid transparent;
   color: #fff;
+  font-family: 'Ubuntu', sans-serif;
   font-size: 1rem;
   height: 50px;
   transition: all 300ms;
@@ -52,5 +66,29 @@ p {
 .navbar-btn:hover {
   border: 3px solid #000;
   color: #000;
+}
+
+.project-image {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 60px;
+  width: 80%;
+}
+
+.resume-preview {
+  display: block;
+  margin: 0 auto;
+}
+
+.contact-link {
+  display: block;
+  font-family: 'Ubuntu', sans-serif;
+  text-align: center;
+}
+
+.footer {
+  background: #283e4b;
+  height: 200px;
+  margin-top: 60px;
 }
 
