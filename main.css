@@ -75,6 +75,17 @@ p {
   width: 80%;
 }
 
+.resume-contacts-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.resume-title,
+.contacts-title {
+  font-family: 'Alegreya SC', serif;
+  text-align: center;
+}
+
 .resume-preview {
   display: block;
   margin: 0 auto;
@@ -83,6 +94,7 @@ p {
 .contact-link {
   display: block;
   font-family: 'Ubuntu', sans-serif;
+  padding-bottom: 10px;
   text-align: center;
 }
 
