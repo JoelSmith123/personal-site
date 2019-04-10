@@ -86,3 +86,9 @@ p {
   text-align: center;
 }
 
+.footer {
+  background: #283e4b;
+  height: 200px;
+  margin-top: 60px;
+}
+
