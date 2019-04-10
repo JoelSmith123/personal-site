@@ -8,9 +8,9 @@ body {
   background: url('https://lessandmore.com/wp-content/uploads/2016/08/COVER.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  height: 300px;
+  height: 500px;
   position: sticky;
-  top: -220px;
+  top: -442px;
 }
 
 .header-title {
@@ -19,8 +19,8 @@ body {
   font-size: 3.5rem;
   font-weight: 500;
   margin: 0;
-  padding-top: 90px; 
-  padding-bottom: 60px;
+  padding-top: 150px; 
+  padding-bottom: 220px;
   text-align: center;
 }
 
@@ -36,7 +36,7 @@ p {
   bottom: 0;
   display: flex;
   justify-content: space-around;
-  padding-top: 10px;
+  // padding-top: 10px;
   position: sticky;
   top: 0;
   width: 100%;
